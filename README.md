@@ -62,21 +62,14 @@ const md = config.toMd()
 md.render('[[TOC]] \n # h1 \n ## h2 \n ## h3 ')
 ```
 
-## Advanced
+## Worth Reading
 
-In order to ensure the consistency of the API, `webpack-it-chain` is based on [webpack-chain](https://github.com/neutrinojs/webpack-chain). Here are some things worth reading.
+In order to ensure the consistency of the chained API world, `webpack-it-chain` is developed directly on the basis of [webpack-chain](https://github.com/neutrinojs/webpack-chain) and ensures that the usage is completely consistent.
+
+Here are some things worth reading that come from `webpack-chain`:
 
 - [ChainedMap](https://github.com/neutrinojs/webpack-chain#chainedmap)
 - [Config plugins](https://github.com/neutrinojs/webpack-chain#config-plugins)
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
 
 ## Author
 
