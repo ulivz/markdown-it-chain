@@ -1,10 +1,11 @@
 const ChainedMap = require('webpack-chain/src/ChainedMap')
 const Plugin = require('./Plugin')
+const Options = require('./Options')
 
 module.exports = class MarkdownItChain extends ChainedMap {
   constructor () {
     super()
-    this.options = new ChainedMap(this)
+    this.options = new Options(this)
     this.plugins = new ChainedMap(this)
   }
 
@@ -26,6 +27,6 @@ module.exports = class MarkdownItChain extends ChainedMap {
   toMd () {
     const { options, plugins } = this.toConfig()
     const md = require('markdown-it')(options)
-    return plugins.reduce((md, plugin) => md.use(plugin), md)
+    return plugins.reduce((md, { plugin, args }) => md.use(plugin, ...args), md)
   }
 }
