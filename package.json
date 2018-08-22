@@ -53,7 +53,9 @@
     "eslint-plugin-jest": "^21.21.0",
     "eslint-plugin-vue-libs": "^3.0.0",
     "jest-cli": "^22.1.4",
-    "markdown-it  src/index.js": "^8.4.2",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-table-of-contents": "^0.4.3",
     "xo": "^0.22.0"
   },
   "peerDependencies": {

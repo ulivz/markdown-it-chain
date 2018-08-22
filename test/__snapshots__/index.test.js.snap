@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`realword example 1`] = `
+"<p><div class=\\"table-of-contents\\"><ul><li><a href=\\"#h2\\">h2</a></li><li><a href=\\"#h3\\">h3</a></li></ul></div></p>
+<h1 id=\\"h1\\"><a class=\\"header-anchor\\" href=\\"#h1\\" aria-hidden=\\"true\\">$</a> h1</h1>
+<h2 id=\\"h2\\"><a class=\\"header-anchor\\" href=\\"#h2\\" aria-hidden=\\"true\\">$</a> h2</h2>
+<h2 id=\\"h3\\"><a class=\\"header-anchor\\" href=\\"#h3\\" aria-hidden=\\"true\\">$</a> h3</h2>
+"
+`;
