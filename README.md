@@ -1,6 +1,6 @@
 # markdown-it-chain
 
-> Use a chaining API like [webpack-chain](https://github.com/neutrinojs/webpack-chain) but for [markdown-it](https://markdown-it.github.io/markdown-it/).
+> A chaining API like [webpack-chain](https://github.com/neutrinojs/webpack-chain) but for [markdown-it](https://markdown-it.github.io/markdown-it/).
 
 [![NPM version](https://img.shields.io/npm/v/markdown-it-chain.svg?style=flat)](https://npmjs.com/package/markdown-it-chain) [![NPM downloads](https://img.shields.io/npm/dm/markdown-it-chain.svg?style=flat)](https://npmjs.com/package/markdown-it-chain) [![CircleCI](https://circleci.com/gh/ULIVZ/markdown-it-chain/tree/master.svg?style=shield)](https://circleci.com/gh/ULIVZ/markdown-it-chain/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/ULIVZ/donate)
 
