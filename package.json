@@ -13,8 +13,6 @@
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "xo src",
-    "prepublishOnly": "npm run build",
-    "build": "bili",
     "release": "release-it"
   },
   "author": "ULIVZ <chl814@foxmail.com>",
@@ -49,8 +47,6 @@
     "node": ">=6.9"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.4.0",
-    "bili": "^2.2.3",
     "eslint-plugin-jest": "^21.21.0",
     "eslint-plugin-vue-libs": "^3.0.0",
     "jest-cli": "^22.1.4",
