@@ -24,9 +24,17 @@ module.exports = class MarkdownItChain extends ChainedMap {
     return this.plugins.get(name)
   }
 
-  toMd () {
+  toMd (markdownIt) {
     const { options, plugins } = this.toConfig()
-    const md = require('markdown-it')(options)
+    if (!markdownIt) {
+      try {
+        markdownIt = require.resolve('markdown-it')
+      } catch (e) {
+        throw new Error('Failed to detect markdown-it has been installed')
+      }
+      markdownIt = require(markdownIt)
+    }
+    const md = markdownIt(options)
     return plugins.reduce((md, { plugin, args }) => md.use(plugin, ...args), md)
   }
 }
