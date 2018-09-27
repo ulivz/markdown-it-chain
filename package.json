@@ -58,7 +58,7 @@
     "conventional-changelog-cli": "^2.0.1"
   },
   "peerDependencies": {
-    "markdown-it": "^5.0.0"
+    "markdown-it": ">=5.0.0"
   },
   "xo": {
     "extends": [
