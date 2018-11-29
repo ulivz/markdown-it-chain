@@ -1,3 +1,13 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/ULIVZ/markdown-it-chain/compare/v1.2.1...v1.3.0) (2018-11-29)
+
+
+### Features
+
+* support passing "instantiationOptions" when calling "toMd" ([e3b3a4c](https://github.com/ULIVZ/markdown-it-chain/commit/e3b3a4c))
+
+
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/ULIVZ/markdown-it-chain/compare/v1.2.0...v1.2.1) (2018-10-09)
 
