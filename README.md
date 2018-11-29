@@ -2,7 +2,8 @@
 
 > A chaining API like [webpack-chain](https://github.com/neutrinojs/webpack-chain) but for [markdown-it](https://markdown-it.github.io/markdown-it/).
 
-[![NPM version](https://img.shields.io/npm/v/markdown-it-chain.svg?style=flat)](https://npmjs.com/package/markdown-it-chain)  
+<a href="https://npmjs.com/package/markdown-it-chain"><img src="https://img.shields.io/npm/v/markdown-it-chain.svg?style=flat" alt="NPM version"></a> <a href="https://npmjs.com/package/markdown-it-chain"><img src="https://img.shields.io/npm/dm/markdown-it-chain.svg?style=flat" alt="NPM downloads"></a> <a href="https://circleci.com/gh/ulivz/markdown-it-chain"><img src="https://img.shields.io/circleci/project/ulivz/markdown-it-chain/master.svg?style=flat" alt="Build Status"></a> <a href="https://packagephobia.now.sh/result?p=markdown-it-chain"><img src="https://packagephobia.now.sh/badge?p=markdown-it-chain" alt="install size"></a>
+
 
 ## Install
 
