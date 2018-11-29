@@ -24,7 +24,7 @@ module.exports = class MarkdownItChain extends ChainedMap {
     return this.plugins.get(name)
   }
 
-  toMd (markdownIt) {
+  toMd (markdownIt, instantiationOptions = {}) {
     const { options, plugins } = this.toConfig()
     if (!markdownIt) {
       try {
@@ -34,7 +34,7 @@ module.exports = class MarkdownItChain extends ChainedMap {
       }
       markdownIt = require(markdownIt)
     }
-    const md = markdownIt(options)
+    const md = markdownIt(Object.assign(instantiationOptions, options))
     return plugins.reduce((md, { plugin, args }) => md.use(plugin, ...args), md)
   }
 }
