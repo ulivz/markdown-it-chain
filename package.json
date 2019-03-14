@@ -8,7 +8,8 @@
   },
   "main": "src/index.js",
   "files": [
-    "src"
+    "src",
+    "index.d.ts"
   ],
   "scripts": {
     "test": "npm run lint && jest",
@@ -71,5 +72,6 @@
     "envs": [
       "jest"
     ]
-  }
+  },
+  "types": "index.d.ts"
 }
