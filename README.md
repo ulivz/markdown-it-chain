@@ -65,7 +65,7 @@ md.render('[[TOC]] \n # h1 \n ## h2 \n ## h3 ')
 
 ## Worth Reading
 
-In order to ensure the consistency of the chained API world, `webpack-it-chain` is developed directly on the basis of [webpack-chain](https://github.com/neutrinojs/webpack-chain) and ensures that the usage is completely consistent.
+In order to ensure the consistency of the chained API world, `markdown-it-chain` is developed directly on the basis of [webpack-chain](https://github.com/neutrinojs/webpack-chain) and ensures that the usage is completely consistent.
 
 Here are some things worth reading that come from `webpack-chain`:
 
