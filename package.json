@@ -37,7 +37,7 @@
     }
   },
   "dependencies": {
-    "webpack-chain": "^4.9.0"
+    "webpack-chain": "^6.0.0"
   },
   "keywords": [
     "markdown-it",
@@ -47,14 +47,14 @@
     "node": ">=6.9"
   },
   "devDependencies": {
-    "eslint-plugin-jest": "^21.21.0",
-    "eslint-plugin-vue-libs": "^3.0.0",
-    "jest-cli": "^22.1.4",
-    "markdown-it": "^8.4.2",
+    "eslint-plugin-jest": "^22.14.0",
+    "eslint-plugin-vue-libs": "^4.0.0",
+    "jest-cli": "^24.8.0",
+    "markdown-it": "^9.0.1",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-table-of-contents": "^0.4.3",
-    "xo": "^0.22.0",
-    "release-it": "v7.4.8",
+    "xo": "^0.24.0",
+    "release-it": "12.3.4",
     "conventional-changelog-cli": "^2.0.1"
   },
   "peerDependencies": {
