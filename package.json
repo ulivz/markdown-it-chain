@@ -50,7 +50,7 @@
     "eslint-plugin-jest": "^22.14.0",
     "eslint-plugin-vue-libs": "^4.0.0",
     "jest-cli": "^24.8.0",
-    "markdown-it": "^9.0.1",
+    "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.0.2",
     "markdown-it-table-of-contents": "^0.4.3",
     "xo": "^0.24.0",
